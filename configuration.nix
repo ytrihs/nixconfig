@@ -169,19 +169,6 @@
   system.stateVersion = "23.05"; # Did you read the comment?
 
 
- # ASUS LINUX STUFF!!
-
- services.supergfxd.enable = true;
-
- services = {
-    asusd = {
-      enable = true;
-      enableUserService = true;
-    };
-  }
-
-#ulauncher on startup
-
 
 
 
