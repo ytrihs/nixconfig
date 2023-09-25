@@ -96,21 +96,21 @@
     description = "aarizmustafa";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+    # thunderbird
       distrobox
       discord
       brave
-      steam
+    #  steam
       ryujinx
       mgba
       gparted
       librewolf
       ulauncher
       qbittorrent
-      heroic
-      wine
-      lutris
-      protonup-qt
+    #  heroic
+    #  wine
+    #  lutris
+    #  protonup-qt
       gnome.gedit
       vlc
       mpv
@@ -164,14 +164,14 @@
 
  # ASUS LINUX STUFF!!
 
-# services.supergfxd.enable = true;
+ services.supergfxd.enable = true;
 
-#services = {
-#    asusd = {
- #     enable = true;
-  #    enableUserService = true;
-  #  };
-# }
+ services = {
+    asusd = {
+      enable = true;
+      enableUserService = true;
+    };
+  }
 
 
 
