@@ -182,7 +182,6 @@
 
 #ulauncher on startup
 
-services.ulauncher.enable = true;
 
 
 
